@@ -1,6 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<?php include('variables/variables.php'); ?>
 
 <head>
 
@@ -22,9 +22,27 @@
 
 		<div id="wrapper">
 
-<?php include('includes/header.php'); ?>
 
-<?php include('includes/nav.php'); ?>
+<!-- ----------------------- -->
+<?php include ('includes/header.php'); ?>
+
+<div id="header">
+
+	<h2><?php echo $heading ?></h2>
+
+</div> <!-- end #header -->
+
+
+<!-- ----------------------- -->
+<?php include ('includes/nav.php'); ?>
+<div id="nav">
+
+	<a href="index.php">Home</a>
+	<a href="about.php">About</a>
+	<a href="#">Portfolio</a>
+	<a href="#">Contact</a>
+
+</div> <!-- end #nav -->
 
 
 <div id="content">
@@ -65,9 +83,39 @@ Quisque pellentesque sodales aliquam. Morbi mollis neque eget arcu egestas non u
 
 </div> <!-- end #content -->
 
-
+<!-- ----------------------- -->
 <?php include('includes/sidebar.php'); ?>
+<div id="sidebar">
+<h3>Navigation</h3>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About Us</a></li>
+	<li><a href="#">Links</a></li>
+	<li><a href="#">Portfolio</a></li>
+	<li><a href="#">Contact</a></li>
+
+<h3>Box Two</h3>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+
+<h3>Box Three</h3>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+	<li><a href="#">Link Here</a></li>
+
+</div> <!-- end #sidebar -->
+
+
+<!-- ----------------------- -->
 <?php include('includes/footer.php'); ?>
+<div id="footer">
+	<p><?php echo $footer ?></p>
+
+</div> <!-- end #footer -->
 
 
 
