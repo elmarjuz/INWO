@@ -1,7 +1,7 @@
 <div id="nav">
 
-	<a href="#">Home</a>
-	<a href="#">About</a>
+	<a href="index.php">Home</a>
+	<a href="about.php">About</a>
 	<a href="#">Portfolio</a>
 	<a href="#">Contact</a>
 
