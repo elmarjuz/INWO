@@ -14,6 +14,19 @@
 
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
+<!--mysql.cs.ut.ee
+ grant all on juzar.* to juzar@'%' identified by 's33bim2gi';
+-->
+
+<?php /*
+$link = mysql_connect('mysql.cs.ut.ee', 'juzar', 's33bim2gi');
+if (!$link) {
+    die('Could not connect: ' . mysql_error());
+}
+echo 'Connected successfully';
+mysql_close($link);
+*/?> 
+
 <title>1stWebDesigner PHP Template</title>
 
 </head>
@@ -23,26 +36,17 @@
 		<div id="wrapper">
 
 
-<!-- ----------------------- -->
+<!-- -----------HEAD------------ -->
 <?php include ('includes/header.php'); ?>
 
-<div id="header">
-
-	<h2><?php echo $heading ?></h2>
-
-</div> <!-- end #header -->
 
 
-<!-- ----------------------- -->
+
+
+
+<!-- -----------NAVIGATION------------ -->
 <?php include ('includes/nav.php'); ?>
-<div id="nav">
 
-	<a href="index.php">Home</a>
-	<a href="about.php">About</a>
-	<a href="#">Portfolio</a>
-	<a href="#">Contact</a>
-
-</div> <!-- end #nav -->
 
 
 <div id="content">
@@ -83,39 +87,14 @@ Quisque pellentesque sodales aliquam. Morbi mollis neque eget arcu egestas non u
 
 </div> <!-- end #content -->
 
-<!-- ----------------------- -->
+<!-- -----------SIDEBAR------------ -->
 <?php include('includes/sidebar.php'); ?>
-<div id="sidebar">
-<h3>Navigation</h3>
-	<li><a href="#">Home</a></li>
-	<li><a href="#">About Us</a></li>
-	<li><a href="#">Links</a></li>
-	<li><a href="#">Portfolio</a></li>
-	<li><a href="#">Contact</a></li>
-
-<h3>Box Two</h3>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-
-<h3>Box Three</h3>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-	<li><a href="#">Link Here</a></li>
-
-</div> <!-- end #sidebar -->
 
 
-<!-- ----------------------- -->
+
+<!-- -------------FOOT---------- -->
 <?php include('includes/footer.php'); ?>
-<div id="footer">
-	<p><?php echo $footer ?></p>
 
-</div> <!-- end #footer -->
 
 
 
