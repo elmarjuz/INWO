@@ -5,10 +5,10 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta name="author" content="" />
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" /-->
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"  type="text/javascript" ></script>
+<script src="js/bootstrap.min.js"  type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 
 <!--mysql.cs.ut.ee
  grant all on juzar.* to juzar@'%' identified by 's33bim2gi';
@@ -28,29 +28,26 @@ mysql_close($link);
 <body>
 <div id="wrapper">
 
-<!-- -----------HEAD------------ -->
 <?php/* include ('includes/header.php');*/ ?>
 
-<!-- -----------NAVIGATION------------ -->
 <?php include ('includes/nav.php'); ?>
 
-<!-- -----------CONTENT------------ -->
 <div id="contentWrap" class="row">
 	<div id="content" class="col-md-8">
 		<?php include ('includes/content.php'); ?>
 	</div>
 	
-	<!-- -----------SIDEBAR------------ -->
+
 	<div id="sidebar" class="col-md-4">
 		<?php include('includes/sidebar.php'); ?>
 	</div>
-	<!-- -------------FOOT---------- -->
+
 	<div id="footer" class="col-md-4">
 
 	<?php include('includes/footer.php'); ?>
 	</div>
 </div>
-<!-- End #wrapper -->
+<!-- end #wrapper -->
 
 </body>
 </html>
