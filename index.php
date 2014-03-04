@@ -45,7 +45,10 @@ mysql_close($link);
 		<?php include('includes/sidebar.php'); ?>
 	</div>
 	<!-- -------------FOOT---------- -->
+	<div id="footer" class="col-md-4">
+
 	<?php include('includes/footer.php'); ?>
+	</div>
 </div>
 <!-- End #wrapper -->
 
