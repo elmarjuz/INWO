@@ -12,14 +12,7 @@
  grant all on juzar.* to juzar@'%' identified by 's33bim2gi';
 -->
 
-<?php /*
-$link = mysql_connect('mysql.cs.ut.ee', 'juzar', 's33bim2gi');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
-echo 'Connected successfully';
-mysql_close($link);
-*/?>
+
 <title>INWO PLACEHOLDER PAGE</title>
 </head>
 
