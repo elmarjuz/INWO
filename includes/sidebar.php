@@ -1,4 +1,3 @@
-<div id="sidebar">
 <h3>Navigation</h3>
 	<li><a href="#">Home</a></li>
 	<li><a href="#">About Us</a></li>
@@ -20,4 +19,4 @@
 	<li><a href="#">Link Here</a></li>
 	<li><a href="#">Link Here</a></li>
 
-</div> <!-- end #sidebar -->
+<!-- end #sidebar -->

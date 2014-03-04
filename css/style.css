@@ -7,7 +7,7 @@ padding:0;
 }
 
 #wrapper {
-width:960px;
+max-width:940px;
 background-color:#f8f8f8;
 margin:0 auto;
 border-left:1px solid #ccc;
@@ -15,7 +15,7 @@ border-right:1px solid #ccc;
 }
 
 #header {
-width:960px;
+max-width:960px;
 height:135px;
 margin:0 auto;
 margin-bottom:25px;
@@ -28,7 +28,6 @@ padding:10px;
 }
 
 #nav {
-width:960px;
 height:40px;
 border-bottom:1px solid #ccc;
 }
@@ -46,14 +45,11 @@ height:80px;
 }
 
 #content {
-width:675px;
 float:left;
 padding:10px;
 }
 
 #sidebar {
-width:200px;
-float:right;
 margin-bottom:25px;
 }
 
