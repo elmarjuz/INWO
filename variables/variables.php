@@ -1,7 +1,7 @@
 <?php
 
 $heading='INWO Web Applications test page';
-$footer='Copyright &copy; 2010 Sex Drugs & Game Development';
+$footer='2014 Jana Levitina, Elmar Juzar';
 
 
 ?>
