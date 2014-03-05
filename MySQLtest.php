@@ -31,17 +31,17 @@ else
 
 <?php 
 
-$con=mysqli_connect("mysql.cs.ut.ee", "juzar", "s33bim2gi");
-if (mysqli_connect_errno())
+$con=mysql_connect("mysql.cs.ut.ee", "juzar", "s33bim2gi");
+if (mysql_connect_errno())
   {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  echo "Failed to connect to MySQL: " . mysql_connect_error();
   }
  
   $sql = 'DROP DATABASE test_db';
-if (mysqli_query($sql, $con)) {
+if (mysql_query($sql, $con)) {
     echo "Database my_db was successfully dropped\n";
 } else {
-    echo 'Error dropping database: ' . mysqli_error() . "\n";
+    echo 'Error dropping database: ' . mysql_error() . "\n";
 }
   
    
@@ -114,6 +114,7 @@ while($row = mysqli_fetch_array($result))
   
   <?php 
   mysql_close($con);
+	unlink("deleteme.php"); 
   ?>
   
   
