@@ -7,7 +7,7 @@ padding:0;
 }
 
 #wrapper {
-max-width:940px;
+max-width:960px;
 background-color:#f8f8f8;
 margin:0 auto;
 border-left:1px solid #ccc;
@@ -15,7 +15,6 @@ border-right:1px solid #ccc;
 }
 
 #header {
-max-width:960px;
 height:135px;
 margin:0 auto;
 margin-bottom:25px;
@@ -61,7 +60,6 @@ list-style:none;
 
 #footer {
 clear:both;
-width:960px;
 height:135px;
 border-top:1px solid #ccc;
 }
